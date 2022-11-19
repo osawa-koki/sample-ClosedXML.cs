@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "sample-ClosedXML.cs": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
