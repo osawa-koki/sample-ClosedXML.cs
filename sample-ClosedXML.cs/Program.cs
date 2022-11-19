@@ -16,10 +16,16 @@ sheet.Row(1).Height = 30;
 sheet.Row(2).Height = 50;
 sheet.Row(3).Height = 70;
 
+// 行の高さをまとめて変更する。
+sheet.Rows(4, 10).Height = 30;
+
 // 列の幅を変更する。
 sheet.Column(1).Width = 30;
 sheet.Column(2).Width = 50;
 sheet.Column(3).Width = 70;
+
+// 列の幅をまとめて変更する。
+sheet.Columns(4, 10).Width = 30;
 
 // フォント色を変更する。
 sheet.Cell("A1").Style.Font.FontColor = XLColor.Red;
